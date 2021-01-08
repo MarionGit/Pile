@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1602696500 source:z:\onedrive\documents\ece\ing 2\1. module sciences et techniques\informatique\exercices\tp4; conteneurs de la stl (vector, stack and queue)\conteneurs stl\pile\main.cpp
+	<iostream>
+	<stack>
+	<cstring>
+
