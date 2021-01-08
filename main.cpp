@@ -8,7 +8,8 @@ int main()
 {
     std::stack<int> pile;
     int saisi;
-
+    
+    ///saisie
     for (int i=0;i<10;i++)
     {
         std::cout<<"saisie"<<std::endl;
@@ -16,6 +17,8 @@ int main()
         pile.push(saisi);
     }
 
+
+    ///affichage
     for (unsigned int i=0; i<10; i++)
     {
 
@@ -25,6 +28,8 @@ int main()
 
 
     }
+    
+    
 
 
 
