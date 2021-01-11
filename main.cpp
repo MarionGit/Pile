@@ -28,10 +28,19 @@ int main()
 
 
     }
-    
+    ///supprimer
+    std::cout<<"nombre à supprimer: "<<std::endl;
+    std::cin>>nbreSupp;
+    for (unsigned int i=0; i<10;i++)
+    {
+        nbre=fileimp.top();
+        fileimp.pop();
+        if (nbreSupp!=nbre)
+        {
+            fileimp.push(nbre);
+        }
 
-
-
+    }
 
     return 0;
 }
